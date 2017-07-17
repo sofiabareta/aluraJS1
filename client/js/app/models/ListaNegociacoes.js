@@ -9,6 +9,10 @@ class ListaNegociacoes {
         
         this._negociacoes.push(negociacao);
     }
+
+    apaga(){
+        this._negociacoes = [];
+    }
     
     get negociacoes() {
         

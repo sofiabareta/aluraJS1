@@ -1,9 +1,8 @@
-class NegociacoesView extends View {
-    
-    constructor(elemento) {
+class NegociacoesView extends View{   
+    constructor(elemento){
         super(elemento);
     }
-    
+
     template(model) {
         
         return `
